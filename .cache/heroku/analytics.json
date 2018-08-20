@@ -22,6 +22,17 @@
       "shell": "bash",
       "valid": true,
       "language": "node"
+    },
+    {
+      "command": "buildpacks:set",
+      "completion": 0,
+      "version": "6.99.0-ec9edad",
+      "plugin": "@heroku-cli/plugin-apps",
+      "plugin_version": "2.4.38",
+      "os": "linux",
+      "shell": "bash",
+      "valid": true,
+      "language": "node"
     }
   ]
 }

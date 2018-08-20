@@ -12,3 +12,33 @@ Run heroku help for a list of available commands.
  ▸    logins is not a heroku command.
  ▸    Perhaps you meant auth:login
  ▸    Run heroku help for a list of available commands.
+{ Error: Missing required flag:
+ -a, --app APP  app to run command against
+See more help with --help
+    at validateFlags (/home/ubuntu/.local/share/heroku/client/node_modules/cli-flags/lib/validate.js:22:19)
+    at Object.validate (/home/ubuntu/.local/share/heroku/client/node_modules/cli-flags/lib/validate.js:25:5)
+    at Object.parse (/home/ubuntu/.local/share/heroku/client/node_modules/cli-flags/lib/index.js:19:26)
+    at V5.<anonymous> (/home/ubuntu/.local/share/heroku/client/node_modules/@cli-engine/command/lib/command.js:36:61)
+    at Generator.next (<anonymous>)
+    at /home/ubuntu/.local/share/heroku/client/node_modules/tslib/tslib.js:107:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (/home/ubuntu/.local/share/heroku/client/node_modules/tslib/tslib.js:103:16)
+    at V5.init (/home/ubuntu/.local/share/heroku/client/node_modules/@cli-engine/command/lib/command.js:33:24)
+    at Function.<anonymous> (/home/ubuntu/.local/share/heroku/client/node_modules/@cli-engine/command/lib/command.js:105:23)
+  parse: 
+   { input: { args: [Array], argv: [Array], flags: [Object], strict: true },
+     output: { args: [Object], argv: [Array], flags: [Object], raw: [Array] } },
+  flags: 
+   [ { parse: [Function: parse],
+       char: 'a',
+       completion: [Object],
+       description: 'app to run command against',
+       default: [Function: default],
+       required: true,
+       input: [],
+       multiple: false,
+       type: 'option',
+       name: 'app' } ] }
+ ▸    Missing required flag:
+ ▸    -a, --app APP  app to run command against
+ ▸    See more help with --help
